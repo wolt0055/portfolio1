@@ -1,0 +1,145 @@
+<style media = "screen">
+  html {font-size: 16px;}/*16px == 1rem*/
+  div.container {
+    width: 100%;
+    border: 1px solid gray;
+  }
+  #welcome-message {
+    font-style: italic;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    margin: 0;
+    font-size: 4rem;
+    background-color: hsla(40, 50%, 50%, 0.88);
+  }
+
+  #welcome-message:hover {
+    background: rgb(255,0,255);
+    color: rgb(55,2,123);
+    transition: all 1s cubic-bezier(.29,.98,.79,.2) .5s;
+  }
+  nav {
+    float: left;
+    max-width: 200px;
+    margin: 0;
+    padding: 1em;
+  }
+  nav p {
+    font-size: .6em;
+  }
+  nav li {
+    font-size: .75em;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  article {
+    border-left: 1px solid grey;
+    margin-left: 50px;
+    overflow: hidden;
+    padding: 1em;
+  }
+  footer {
+    padding: .5em;
+    font-style: italic;
+    text-align: left;
+    font-size: 1em;
+    color: #a1b2c3;
+    background-color: #f6f6f6;
+  }
+  img {
+    padding: 5px 5px;
+  }
+  img.small {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+  }
+
+  img.small:hover {
+    transform: rotate(270deg);
+  }
+/*No longer using
+  img.align-left{
+    float: left;
+    margin-right: 5px;
+  }*/
+  ul.sidenav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #a4a4a4;
+    background-color: #b4b4b4;
+  }
+  li.sidenav {
+    float: left;
+    text-align: center;
+    border-bottom: none;
+    border-right: 2px solid #c4c4c4;
+  }
+  li.sidenav:last-child {
+    border-bottom: none;
+  }
+  li a {
+    display: block;
+    color: #66666;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+  }
+  li a.active {
+    background-color: #234;
+    color: white;
+  }
+  li a:hover:not(.active) {
+    background-color: #123;
+    color: white;
+
+  }
+
+  .food-glorious-food:nth-child(odd) {
+    color: orange;
+    font-family: 'Jim Nightshade', cursive;
+  }
+  .food-glorious-food:nth-child(even) {
+    color: red;
+    font-family: 'Macondo', cursive;
+  }
+
+
+  .copyright-statement:hover {
+    transform: rotate(180deg);
+  }
+
+
+
+
+/* Added this initially but do notthink it applies any longer, keeping just in case
+ul.sidenav {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  ul.sidenav li a {
+    display: block;
+    color: #777;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  ul.sidenav li a.active {
+    background-color: #456;
+    color: white;
+  }
+  ul.sidenav li a:hover:not(.active) {
+    background-color: red;
+    color: white;
+  }
+*/
+</style>
