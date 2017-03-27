@@ -107,6 +107,9 @@
     color: red;
     font-family: 'Macondo', cursive;
   }
+  .food-glorious-food:hover {
+    color: green;
+  }
 
 
   .copyright-statement:hover {
